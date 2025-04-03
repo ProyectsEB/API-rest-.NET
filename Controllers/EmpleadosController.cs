@@ -43,7 +43,26 @@ namespace EmpleadosAPI.Controllers
         public IActionResult GetEmpleados()
         {
             var empleados = _context.Empleados
+                .Include(e => e.Usuario)
+                    .ThenInclude(u => u.Roles)
+                        .ThenInclude(ur => ur.Rol)
                 .Where(e => e.EstadoLaboral != "Inactivo")
+                .ToList()
+                .Select(e => new EmpleadoConRolDto
+                {
+                    EmpleadoID = e.EmpleadoID,
+                    Nombre = e.Nombre,
+                    FechaNacimiento = e.FechaNacimiento,
+                    Direccion = e.Direccion,
+                    Telefono = e.Telefono,
+                    CorreoElectronico = e.CorreoElectronico,
+                    Puesto = e.Puesto,
+                    Departamento = e.Departamento,
+                    FechaContratacion = e.FechaContratacion,
+                    Salario = e.Salario,
+                    EstadoLaboral = e.EstadoLaboral,
+                    Rol = e.Usuario?.Roles.FirstOrDefault()?.Rol?.NombreRol
+                })
                 .ToList();
 
             return Ok(empleados);
@@ -67,7 +86,6 @@ namespace EmpleadosAPI.Controllers
             if (usuario == null)
                 return Unauthorized("Usuario no válido");
 
-            // 💡 Versión defensiva para evitar NullReferenceException
             var esAdmin = usuario.Roles != null &&
                           usuario.Roles.Any(r => r?.Rol != null && r.Rol.NombreRol == "Administrador");
 

@@ -272,3 +272,4 @@ C:\Users\CORBANOR\OneDrive - Corporación Bananera del norte\Escritorio\copia ap
 C:\Users\CORBANOR\OneDrive - Corporación Bananera del norte\Escritorio\copia api chance\EmpleadosAPI\obj\Debug\net8.0\EmpleadosAPI.pdb
 C:\Users\CORBANOR\OneDrive - Corporación Bananera del norte\Escritorio\copia api chance\EmpleadosAPI\obj\Debug\net8.0\EmpleadosAPI.genruntimeconfig.cache
 C:\Users\CORBANOR\OneDrive - Corporación Bananera del norte\Escritorio\copia api chance\EmpleadosAPI\obj\Debug\net8.0\ref\EmpleadosAPI.dll
+C:\Users\CORBANOR\OneDrive - Corporación Bananera del norte\Escritorio\copia api chance\EmpleadosAPI\obj\Debug\net8.0\EmpleadosAPI.sourcelink.json
