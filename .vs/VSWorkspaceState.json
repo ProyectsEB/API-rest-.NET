@@ -1,12 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin",
     "\\Controllers",
     "\\Data",
     "\\DTOs",
     "\\Filters",
     "\\Models",
-    "\\Properties",
     "\\Services"
   ],
   "SelectedNode": "\\Controllers\\EmpleadosController.cs",

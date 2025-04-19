@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj": {}
+    "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\proyecto PCA\\API backend .net\\EmpleadosAPI\\EmpleadosAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj": {
+    "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\proyecto PCA\\API backend .net\\EmpleadosAPI\\EmpleadosAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj",
+        "projectUniqueName": "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\proyecto PCA\\API backend .net\\EmpleadosAPI\\EmpleadosAPI.csproj",
         "projectName": "EmpleadosAPI",
-        "projectPath": "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj",
+        "projectPath": "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\proyecto PCA\\API backend .net\\EmpleadosAPI\\EmpleadosAPI.csproj",
         "packagesPath": "C:\\Users\\CORBANOR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\obj\\",
+        "outputPath": "C:\\Users\\CORBANOR\\OneDrive - Corporación Bananera del norte\\Escritorio\\proyecto PCA\\API backend .net\\EmpleadosAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CORBANOR\\AppData\\Roaming\\NuGet\\NuGet.Config"
